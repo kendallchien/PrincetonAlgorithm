@@ -27,7 +27,6 @@ class QuickFind(object):
                 print(x, self.id)
 
 
-
 if __name__ == '__main__':
 
     qf = QuickFind(10)
@@ -43,8 +42,4 @@ if __name__ == '__main__':
     assert(qf.connected(3, 8) == True)
     assert(qf.connected(2, 8) == False)
 
-
-
     print('success!')
-
-    # print something if all test cases pass
